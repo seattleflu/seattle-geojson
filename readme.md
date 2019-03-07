@@ -7,4 +7,4 @@ This repo contains geoJSON and pdf files for the city of Seattle (Seattle proper
 3. Neighborhoods
 4. Census Tracts
 
-These maps are based on the 2016 census tract data and the PUMA geocoding matching done by Mike Famulare and [found here] (https://github.com/seattleflu/simulated-data). Thanks Mike!
+These maps are based on the 2016 census tract data and the PUMA geocoding matching done by Mike Famulare and [found here](https://github.com/seattleflu/simulated-data). Thanks Mike!
