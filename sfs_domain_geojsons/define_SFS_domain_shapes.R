@@ -19,7 +19,7 @@ citytracts <- masterSpatialDB(shape_level = 'census_tract', source='seattle_geoj
 wa <- masterSpatialDB(shape_level = 'puma', source='wa_geojson')
 
 # surround pumas
-surround <- wa %>% filter(!(PUMACE10 %in% city$residence_puma))
+surround <- wa %>% filter(!(PUMACE10 %in% city$PUMA5CE))
 
 ## merge neighborhoods in city with pumas in surround
 # keep state, name, lowest geoid, puma, tract, domain
