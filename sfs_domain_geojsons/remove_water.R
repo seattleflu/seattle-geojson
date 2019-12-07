@@ -23,4 +23,4 @@ tmp <- st_erase(shp, water) %>% select(names(shp))
 
 p %>% addPolygons(data = tmp, fillOpacity = 0.2,color='red')
 
-geojson_write(tmp, geometry = "polygon", file = '2016_wa_censusTracts+sfs_domain.geojson')
+geojson_write(tmp, geometry = "polygon", file = 'sfs_domain_neighborhood+puma.geojson')
